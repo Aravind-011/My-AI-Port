@@ -60,11 +60,14 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.23.4",
+    "@babel/plugin-transform-private-methods": "^7.23.3",
+    "@rollup/plugin-terser": "^0.4.4",
     "concurrently": "^8.2.2",
     "cors": "^2.8.6",
     "dotenv": "^16.6.1",
     "express": "^4.22.1",
-    "nodemailer": "^6.10.1"
+    "nodemailer": "^6.10.1",
+    "svgo": "^2.8.0"
   }
 }
