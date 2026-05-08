@@ -395,7 +395,7 @@ const Hero = () => {
               </motion.div>
 
               <ButtonContainer>
-                <ResumeButton href={Bio.resume} download="Aravind_Osuri_Resume.pdf" aria-label="Download Resume">
+                <ResumeButton as="button" aria-label="Resume">
                   <ResumeIcon>
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                       <path d="M5 20h14v-2H5v2zm7-18v10l4-4 1.4 1.4L12 16 6.6 9.4 8 8l4 4V2z" />

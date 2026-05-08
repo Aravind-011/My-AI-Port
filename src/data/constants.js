@@ -8,17 +8,18 @@ import bachelors from "../images/Jntuh.png";
 import java from "../images/java.png";
 import springBoot from "../images/spring-boot.png";
 import post from "../images/post.png";
+import blog from "../images/Blog.webp";
 export const Bio = {
   name: "Aravind Osuri",
   roles: [
-    "Full Stack Developer",
-    "Software Engineer",
+    "AI Engineer",
+    "ML Engineer",
     "Problem Solver",
   ],
   description:
     "I build high-performance web applications that solve real problems. With a strong foundation in full-stack development, I deliver production-ready solutions that scale effortlessly and exceed user expectations. Focused on clean code, best practices, and continuous innovation.",
   summary:
-    "Software Engineer with 3+ years of experience designing, developing, and supporting scalable web applications and backend systems using Java, Spring Boot, and modern JavaScript frameworks. Proven ability to translate business requirements into technical solutions, collaborate across cross-functional teams, and deliver high-quality software throughout the SDLC. Experienced in microservices architecture, CI/CD pipelines, cloud platforms (AWS/Azure), and performance optimization, with a strong focus on code quality, security best practices, and production support.",
+    "AI/ML Engineer with 3.5 years of experience designing, developing, and deploying intelligent applications and scalable backend systems using Python, Java, and modern AI/ML frameworks. Skilled in building machine learning pipelines, integrating large language models (LLMs), developing AI-powered applications, and implementing data-driven solutions to solve complex business problems. Experienced in cloud platforms (AWS/Azure), microservices architecture, REST APIs, CI/CD pipelines, and MLOps practices, with a strong focus on model performance, scalability, security, and production reliability. Proven ability to collaborate across cross-functional teams and deliver high-quality AI solutions throughout the software development lifecycle.",
   github: "https://github.com/Aravind-011",
   gmail: "avi996631@gmail.com",
   resume:
@@ -87,35 +88,33 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name:"JSP",
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ4ODPCEYDxGvbggpZvfpzaMJvskiOa-RHlw&s",
-      },
-
-      {
-        name: "Spring",
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGirL9yUSpxb7hEa7JlHiwsI8WqE2fMHmUlw&s",
+        name:"Python",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
-        name: "SpringBoot",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Springboot.jpg/640px-Springboot.jpg",},
+        name: "Django",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
+      },
+      {
+        name: "FastAPI",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg",
+      },
+      {
+        name:"Flask",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
+      },
       {
         name:"Rest API",
         image:"https://www.opc-router.de/wp-content/uploads/2024/02/REST-800-440-en.png",
       },
-   
       {
-        name: "MSSQL",
-        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        name: "PostgreSQL",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
       },
-
       {
-        name: "Oracle Databse",
-        image:"https://play-lh.googleusercontent.com/lvUW3XukTSHnop1wGHVO1cn2EMwoEa2ZfjBhpIt0t1MhjWXa319OUHJ4zzzhdzf6Vis=w240-h480-rw",
+        name: "MongoDB",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      // {
-      //   name: "Supabase",
-      //   image: "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/supabase-logo-DCC676FFE2-seeklogo.com.png",
-      // },
     ],
   },
 
@@ -162,32 +161,6 @@ export const skills = [
       },
     ],
   },
-
-    {
-    title: "Java Stack",
-    skills: [
-      {
-        name: "Java",
-        image: java
-      },
-      {
-        name: "Spring Boot",
-        image: springBoot,
-      },
-      {
-        name: "SQL Server",
-        image: "https://adarshvodnala.vercel.app/images/sqlServer.webp",
-      },
-      {
-        name: "PostgreSQL",
-        image: post,
-      },
-      {
-        name: "React Js",
-        image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-    ],
-  },
   {
     title:"MERN Stack",
     skills:[
@@ -209,6 +182,249 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
     ]
+  },
+  {
+    title: "Machine Learning",
+    skills: [
+      {
+        name: "Scikit-learn",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg",
+      },
+      {
+        name: "Pandas",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg",
+      },
+      {
+        name: "NumPy",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
+      },
+      {
+        name: "Matplotlib",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg",
+      },
+      {
+        name: "TensorFlow",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
+      },
+      {
+        name: "PyTorch",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg",
+      },
+      {
+        name: "Feature Engineering",
+        image: "https://cdn-icons-png.flaticon.com/512/3588/3588592.png",
+      },
+      {
+        name: "Deep Learning",
+        image: "https://cdn-icons-png.flaticon.com/512/4436/4436481.png",
+      },
+    ],
+  },
+  {
+    title: "Gen AI & NLP",
+    skills: [
+      {
+        name: "LLMs (GPT, BERT, Whisper)",
+        image: "https://cdn-icons-png.flaticon.com/512/8517/8517805.png",
+      },
+      {
+        name: "LangChain",
+        image: "https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/langchain_logo_light.svg",
+      },
+      {
+        name: "RAG",
+        image: "https://cdn-icons-png.flaticon.com/512/3588/3588592.png",
+      },
+      {
+        name: "Prompt Engineering",
+        image: "https://cdn-icons-png.flaticon.com/512/8517/8517805.png",
+      },
+      {
+        name: "Hugging Face",
+        image: "https://raw.githubusercontent.com/huggingface/transformers/main/docs/source/imgs/fire.png",
+      },
+      {
+        name: "OpenAI API",
+        image: "https://cdn-icons-png.flaticon.com/512/8517/8517805.png",
+      },
+      {
+        name: "spaCy",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "NLTK",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "OpenCV",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original-wordmark.svg",
+      },
+      {
+        name: "Agentic AI",
+        image: "https://cdn-icons-png.flaticon.com/512/4436/4436481.png",
+      },
+      {
+        name: "RLHF",
+        image: "https://cdn-icons-png.flaticon.com/512/8517/8517805.png",
+      },
+    ],
+  },
+  {
+    title: "Databases",
+    skills: [
+      {
+        name: "MySQL",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "PostgreSQL",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+      },
+      {
+        name: "MongoDB",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "Elasticsearch",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original.svg",
+      },
+      {
+        name: "FAISS",
+        image: "https://cdn-icons-png.flaticon.com/512/3588/3588592.png",
+      },
+      {
+        name: "Pinecone",
+        image: "https://cdn-icons-png.flaticon.com/512/3588/3588592.png",
+      },
+      {
+        name: "Vector Embeddings",
+        image: "https://cdn-icons-png.flaticon.com/512/3588/3588592.png",
+      },
+    ],
+  },
+  {
+    title: "Cloud & DevOps",
+    skills: [
+      {
+        name: "AWS (S3, Lambda, EC2)",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      },
+      {
+        name: "GCP",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg",
+      },
+      {
+        name: "Azure",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg",
+      },
+      {
+        name: "Docker",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+      {
+        name: "Kubernetes",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg",
+      },
+      {
+        name: "Jenkins",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg",
+      },
+      {
+        name: "GitLab CI/CD",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-original.svg",
+      },
+      {
+        name: "Kafka",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg",
+      },
+      {
+        name: "Spark",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original.svg",
+      },
+      {
+        name: "FastAPI",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg",
+      },
+    ],
+  },
+  {
+    title: "Other Languages",
+    skills: [
+      {
+        name: "SQL",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg",
+      },
+      {
+        name: "TypeScript",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "Linux",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
+      },
+    ],
+  },
+  {
+    title: "ML & AI Tools",
+    skills: [
+      {
+        name: "MLflow",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "ZenML",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Gradio",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Tableau",
+        image: "https://cdn-icons-png.flaticon.com/512/3050/3050380.png",
+      },
+      {
+        name: "Airflow",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Flask",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
+      },
+      {
+        name: "Streamlit",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "MCP",
+        image: "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+      },
+    ],
+  },
+  {
+    title: "Soft Skills",
+    skills: [
+      {
+        name: "Problem Solving",
+        image: "https://cdn-icons-png.flaticon.com/512/3588/3588592.png",
+      },
+      {
+        name: "Agile",
+        image: "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+      },
+      {
+        name: "Scrum",
+        image: "https://cdn-icons-png.flaticon.com/512/3588/3588914.png",
+      },
+      {
+        name: "Cross-Functional Collaboration",
+        image: "https://cdn-icons-png.flaticon.com/512/3556/3556098.png",
+      },
+      {
+        name: "Risk Management",
+        image: "https://cdn-icons-png.flaticon.com/512/3556/3556091.png",
+      },
+    ],
   }
 
 
@@ -245,18 +461,18 @@ export const experiences = [
   {
     id: 0,
     img:boeing,
-    role: "Software Engineer",
+    role: "AI Engineer",
     company: "Boeing [USA]",
     date: "2025- Present",
-    desc: "Engaged with 15+ business stakeholders and project leads to define critical project requirements, resulting in a streamlined process that decreased project delivery timelines by 20%, enhancing team productivity and stakeholder satisfaction. Initiated a tailored customer interaction component within the CRM platform, improving customer engagement by 20% through a better user experience and optimized data workflows. Implemented enterprise applications using Java, Spring Boot, and RESTful Web APIs, ensuring high performance, scalability, and secure data access. Demonstrated expertise in implementing GraphQL & Restful Api and refactoring legacy code in key products, reducing server requests by 30%, user-reported bugs by 30%, and improving code maintainability by 25%. Built scalable and performant backend applications using React.js and JavaScript, implementing server-side rendering (SSR) and API routes to enhance user experience and SEO.",
+    desc: "Designed and deployed LLM-based AI features using LangChain, LangGraph, and AutoGen, building multi-agent workflows to automate multi-step reasoning, reducing manual operations by 40%. Built and optimized Retrieval-Augmented Generation (RAG) pipelines using FAISS and AWS Bedrock, improving multi-hop retrieval accuracy by 35% and enhancing response quality. Developed backend services using Python (FastAPI, Flask) to serve LLM-powered APIs, enabling scalable and low-latency production deployments integrated with enterprise systems. Improved model performance by tuning token usage, latency, and cost efficiency, supporting production-grade AI systems with optimized inference workflows. Implemented evaluation pipelines using MLflow, A/B testing, and behavioral testing, ensuring model accuracy, reliability, and continuous improvement. Collaborated with cross-functional teams and stakeholders to translate business requirements into AI-driven solutions, reducing delivery timelines by 20%. Created reusable prompt templates, agent workflows, and evaluation scripts, accelerating development cycles and standardizing AI solution design.",
   },
   {
     id: 1,
     img: "https://media.licdn.com/dms/image/v2/C4E0BAQEK2_o9ZrGO1Q/company-logo_200_200/company-logo_200_200/0/1644381899191/informationdatasystems_logo?e=2147483647&v=beta&t=OFsuZHWsVscAp6T2uG4eW2cl2mwbIZE8A2MvZ9W7jxk",
-    role: "Software Engineer ",
+    role: "AI / ML Engineer",
     company: " Information Data Systems [USA]",
     date: "Jan 2024 - Dec 2024",
-    desc: "Revamped existing user interfaces utilizing Angular and JavaScript, ensuring adherence to performance optimization best practices, reduced bounce rate to 15%, contributing to overall improved user experience across the application. Accelerated the migration of legacy monolithic applications to microservices architecture utilizing Java, Spring Boot, Docker for containerization and Kubernetes for orchestration, resulting in a 40% reduction in deployment times and improved scalability. Coordinated efforts with UI/UX designers to create prototypes and wireframes for six web applications; the resulting user feedback sessions involved 200+ participants, providing actionable insights for ongoing product improvements. Enhanced application performance through code refactoring, caching, and performance profiling, resulting in a 55% improvement in load times. Designed and executed training sessions for 15+ team members, fostering a culture of collaboration and iterative improvement, the initiative enhanced team engagement and productivity across the software development lifecycle.",
+    desc: "Developed LLM-based applications using Python, prompt engineering, and RAG techniques to improve decision-making accuracy for data-driven workflows. Improved prediction accuracy by 22% by implementing deep learning models (CNNs, transformers) in PyTorch for time-series analysis of clinical sensor data. Built NLP pipelines using TensorFlow and Hugging Face, achieving 93% entity extraction accuracy and enabling structured data integration into ML systems. Engineered scalable data pipelines using PySpark and Azure Databricks, supporting large-scale training data preparation and improving data processing efficiency. Automated CI/CD workflows using Docker and GitHub Actions, reducing release cycles by 30% and enabling reliable deployment of ML pipelines. Collaborated with cross-functional teams to design and deploy AI solutions, aligning technical implementations with business requirements. Researched new AI tools and techniques, contributing to improvements in model performance and development workflows.",
     // skills: [
     //   "ReactJS",
     //   "Redux",
@@ -279,19 +495,19 @@ export const experiences = [
   {
     id: 5,
     img: hcl,
-    role: "HCL Technologies ",
-    company: "Java full Stack Developer",
-    date: "June 2021 - Dec 2022",
-    desc: "I revitalized user interfaces using React.js, optimizing performance and reducing the bounce rate to 15%, which significantly improved the overall user experience. I developed scalable backend applications with Next.js, leveraging server-side rendering and API routes to enhance functionality and user engagement. Collaborating closely with UI/UX designers, I contributed to prototypes and wireframes for six web applications, gathering actionable insights from feedback sessions with over 150 participants to refine products. By employing code refactoring, caching strategies, and performance profiling, I achieved a 55% improvement in application load times. I also implemented a robust, multi-layered security framework with advanced encryption and user authentication, benefiting over 50 employees and bolstering data security. Additionally, I organized training sessions for 20+ team members, fostering collaboration and enhancing productivity throughout the software development lifecycle.",
+    role: "Software Engineer",
+    company: "HCL Technologies",
+    date: "Jan 2022 - Dec 2022",
+    desc: "Developed and deployed machine learning models using Python (scikit-learn, TensorFlow, PyTorch), ensuring scalable and high-performance AI solutions. Built CI/CD pipelines using Docker, Kubernetes, and GitHub Actions to support automated deployment and monitoring of ML models. Implemented model monitoring solutions using MLflow and Azure tools, improving observability for latency, drift, and performance metrics. Developed ETL pipelines using AWS Glue, enabling efficient data transformation and integration into data warehouses (Redshift, S3, Athena). Gained hands-on experience with MLOps tools such as Kubeflow, Ray, and BentoML for model orchestration and serving.",
   },
 
   {
     id: 5,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0333ohUDsvMbXzM6QJNc3zhUnL4oc81Q-GA&s",
     role: "Pantech Solutions ",
-    company: " Java Developer Intern",
+    company: "Data Analyst Intern",
     date: "June 2019 - Dec 2019",
-    desc: "As a Java Developer Intern, I collaborated with senior developers to design and implement Java-based solutions, adhering to coding standards and best practices. I contributed to the development and testing of core backend functionality, optimizing performance and enhancing features. I assisted in creating RESTful APIs to facilitate communication between the front-end and back-end of web applications and participated in bug fixes and code refactoring, improving code efficiency.",
+    desc: "As a Data Analyst Intern, I collaborated with senior analysts to design and implement data pipelines and analytics solutions, adhering to data best practices and quality standards. I contributed to data collection, cleaning, and transformation projects, optimizing data workflows and enhancing data quality. I assisted in creating dashboards and reports using SQL and visualization tools to communicate insights across teams, and participated in exploratory data analysis and data modeling, improving decision-making efficiency and providing actionable business insights.",
   },
 ];
 
@@ -317,22 +533,21 @@ export const education = [
 export const projects = [
   {
     id: 11,
-    title: "Ecommerce Full Stack App",
+    title: "AI Blog Agent Application",
     description:
-      "Built a Job Portal app with React.js, allowing candidates to apply, save jobs, and recruiters to manage listings, with secure authentication via Clerk. Integrated Supabase for real-time data updates and used Redux Toolkit for state management. Designed a responsive, modern UI with ShadCN and Tailwind CSS for cross-device compatibility.",
-    image:
-      "https://www.export.org.uk/media/cvb9zpgu/ECommerce.jpg",
+      "Developed an intelligent AI blog generation agent using LangChain and LLMs to automate blog content creation. Integrated multi-agent workflows for content planning, writing, and editing. Built a REST API backend using FastAPI to serve blog generation requests. Implemented prompt optimization and LLM orchestration for high-quality content output, reducing manual content creation time by 70%.",
+    image: blog,
     tags: [
-      "React Js",
-      "C#",
-      ".NET",
-      "Tailwind CSS",
-      "Javascript",
-      "PostgreSQL",
+      "Python",
+      "LangChain",
+      "LLMs",
+      "FastAPI",
+      "AI/ML",
+      "Generative AI",
     ],
-    category: "web app",
-    github: "https://github.com/Aravind-011/Ecommerce-Web-App.git",
-    webapp: "https://github.com/Aravind-011",
+    category: "AI/ML",
+    github: "https://github.com/Aravind-011/AI-blog-agent-application",
+    webapp: "https://github.com/Aravind-011/AI-blog-agent-application",
   },
   {
     id: 12,
@@ -354,21 +569,25 @@ export const projects = [
   },
   {
     id: 9,
-    title: " Asian Restaurant UI/UX",
+    title: "HARVESTIFY - Agriculture ML/DL Platform",
     description:
-      " SpendWise is a web application designed to streamline expense management and enhance financial tracking system with real-time logging, secure authentication via Express.js, and MongoDB for managing expenses. Designed a responsive UI using Ant Design, ensuring seamless cross-device budgeting and tracking.",
+      "An intelligent ML and DL based website that recommends the best crop to grow, suggests appropriate fertilizers, and predicts plant diseases. Features a crop recommendation system using soil data and location information, fertilizer suggestion based on soil nutrient analysis, and plant disease detection using deep learning on leaf images. Built with Flask, scikit-learn, PyTorch, and NumPy for accurate predictions.",
     image:
-      "https://media.gettyimages.com/id/1388791738/photo/teppanyaki-style.jpg?s=2048x2048&w=gi&k=20&c=EZ-RgtVIecO9ozNOtuUCNNTWBOOfDxXtzsUMmZ2J-Dc=",
+      "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1200&h=600&fit=crop",
     tags: [
-      "ReactJs",
-      "Javascript",
+      "Python",
+      "Flask",
+      "Machine Learning",
+      "Deep Learning",
+      "PyTorch",
+      "Scikit-learn",
       "HTML",
       "CSS",
-      "BootStrap", 
+      "JavaScript"
     ],
-    category: "web app",
-    github: "https://github.com/Aravind-011/UI-UX.git",
-    webapp: "https://github.com/anshita005/SpendWise",
+    category: "AI/ML",
+    github: "https://github.com/Aravind-011/Culti_Vsion_Agriculture",
+    webapp: "https://harvestify.herokuapp.com/",
   },
   {
     id: 0,
