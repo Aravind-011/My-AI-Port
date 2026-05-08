@@ -6,8 +6,6 @@ import hcl from "../images/hcl.jpeg";
 import student from "../images/student.webp";
 import bachelors from "../images/Jntuh.png";
 import java from "../images/java.png";
-import springBoot from "../images/spring-boot.png";
-import post from "../images/post.png";
 import blog from "../images/Blog.webp";
 export const Bio = {
   name: "Aravind Osuri",
